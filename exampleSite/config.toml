@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
 title = "Somrat | Hugo Portfolio Template"
-theme = "somrat"
+theme = "hugo-portfolio"
 # disable language
 disableLanguages = [] # disable language from here
 
@@ -94,7 +94,7 @@ google_analytics_id = "" # your id
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
-  
+
 ############################# social site ########################
 [[params.social]]
 icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
