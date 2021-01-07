@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
-title = "Somrat | Hugo Portfolio Template"
+baseURL = "https://examplesite.com" # TODO
+title = "Dario Caricchio"
 theme = "hugo-portfolio"
 # disable language
 disableLanguages = [] # disable language from here
@@ -11,7 +11,7 @@ disableLanguages = [] # disable language from here
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/fontawesome/font-awesome.min.css"
+link = "plugins/fontawesome/css/fontawesome.min.css"
 [[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
@@ -58,8 +58,8 @@ URL = "#about"
 weight = 2
 
 [[menu.main]]
-name = "Service"
-URL = "#service"
+name = "Profiles"
+URL = "#profiles"
 weight = 3
 
 [[menu.main]]
@@ -67,28 +67,30 @@ name = "Portfolio"
 URL = "#portfolio"
 weight = 4
 
-[[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
+# [[menu.main]]
+# name = "Testimonial"
+# URL = "#testimonial"
+# weight = 5
 
 [[menu.main]]
 name = "Contact"
 URL = "#contact"
-weight = 6
+weight = 5
 
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.png"
+logo_light = "images/logo-light.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
 description = "This is meta description"
-author = "somrat"
+author = "dariocaricchio"
 # contact form action
-contact_form_action = "" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mgepraeg" # contact form works with https://formspree.io
 # Google analytics
-google_analytics_id = "" # your id
+google_analytics_id = "dariocaricchio" # your id
+# set your site URL
+# https://analytics.google.com/analytics/web/#/a186691915p258075072/admin/streams/promo
 
 # Preloader
 [params.preloader]
@@ -98,23 +100,23 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 ############################# social site ########################
 [[params.social]]
 icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/somrat.mac"
+link = "https://www.facebook.com/DereK.Night"
 
-[[params.social]]
-icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://twitter.com/somrat_37"
+# [[params.social]]
+# icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+# link = "https://twitter.com/somrat_37"
 
 [[params.social]]
 icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.instagram.com/somrat_sorkar/"
+link = "https://www.instagram.com/dariocaricchio/"
 
 [[params.social]]
 icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/Somrat37"
+link = "https://github.com/dariocaricchio"
 
 [[params.social]]
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.linkedin.com/in/somrat-sorkar-872581158/"
+link = "https://www.linkedin.com/in/dariocaricchio/"
 
 
 ################################### English language #####################################
@@ -125,15 +127,15 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "&copy; All rights reserved by Dario Caricchio"
 
 
 ################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+# [Languages.fr]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# contentDir = "content/french"
+# weight = 2
+# home = "Accueil"
+# # copyright
+# copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"

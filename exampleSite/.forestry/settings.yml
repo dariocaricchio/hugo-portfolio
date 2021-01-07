@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: heading
   label: Data
@@ -11,11 +11,11 @@ sections:
   label: Data (en)
   create: all
   match: "**/*"
-- type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
-  create: all
-  match: "**/*"
+# - type: directory
+#   path: exampleSite/data/fr
+#   label: Data (fr)
+#   create: all
+#   match: "**/*"
 - type: directory
   path: exampleSite/i18n
   label: i18n
@@ -44,4 +44,4 @@ build:
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.58.2
+version: 0.78.2

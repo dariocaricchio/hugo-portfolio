@@ -18,7 +18,7 @@
         {{ end }}
       </ul>
       <!-- Language List -->
-      {{- if .Site.IsMultiLingual }}
+      <!-- {{- if .Site.IsMultiLingual }}
       <select id="select-language" onchange="location = this.value;">
         {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
@@ -37,7 +37,7 @@
         {{ end }}
         {{ end }}
       </select>
-      {{ end }}
+      {{ end }} -->
       <!-- /desktop-menu -->
 
       <!-- mobile-menu -->
@@ -60,7 +60,7 @@
               {{ end }}
             </ul>
             <!-- Language List -->
-            {{- if .Site.IsMultiLingual }}
+            <!-- {{- if .Site.IsMultiLingual }}
             <select class="ml-4" id="select-language" onchange="location = this.value;">
               {{ $siteLanguages := .Site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -79,7 +79,7 @@
               {{ end }}
               {{ end }}
             </select>
-            {{ end }}
+            {{ end }} -->
             <ul class="mobile-menu-icons list-inline">
               {{ range .Site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="fab {{ .icon }}"></i></a></li>
