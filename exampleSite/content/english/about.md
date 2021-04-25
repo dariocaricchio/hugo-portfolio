@@ -10,25 +10,31 @@ button:
 ########################### Experience ##############################
 experience:
   enable : true
-  title : "EXPERIENCE"
+  title : "MAIN EXPERIENCES"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "Big Data Engineer Consultant"
+      company : "Sky Deutschland GmbH on behalf of NTT Data Italia"
+      duration : "1/11/2020 - 15/03/2021"
+      content : '► Big Data Engineer on Sky DE project using Scala and Java programming languages and Google Cloud Platform.
+► Design and develop of Spark jobs on Scala using GCP services like Google Cloud Storage, Pub/Sub, Google DLP and many more.
+► Design and develop of Apache Beam jobs for Dataflow using SCIO, a Beam Scala framework, for both batch and streaming contexts using GCS and Kafka technologies into the ingestion layer.
+► Design and develop of a POC for security strategies for Dataflow jobs using Google KMS, DLP and Google Tink crypto library.'
 
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name : "Big Data Engineer Consultant"
+      company : "Enel S.p.A. on behalf of ATOS S.p.A."
+      duration : "23/09/2019 – 15/10/2020"
+      content : '► Big Data Engineer on Enel Next Project using Scala and Java programming languages, Hadoop Cloudera Distribution.
+      ► Design and develop of Spark jobs on proprietary Scala platform built on top of Spark core.
+      ► Design and develop of Data Quality Tool using standard Spark Core API (spark 2.4.5 and Scala 2.11.12).
+      ► Design and Develop of Reporting tools based on HIVE, Impala, Parquet/ORC/Avro files on S3 and HDFS for dataset materialization, Data Visualization and CSV/Excel file export.'
 
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Intern"
+      company : "Hamlyn Centre - Imperial College of London"
+      duration : "15/02/2019 – 18/07/2019"
+      content : 'Scholarship for "Erasmus+ Traineeship BET for jobs". I developed a compression algorithm discussed in literature for an ECG sensor using C language. Furthermore, I worked on "abnormal gait detection" using Python language libraries combined with machine learning algorithms and methods for pre-processing, feature extraction, dataset creation, data visualization, discrete wavelet transformation and classification.'
 
 ############################### Skill #################################
 skill:
@@ -58,4 +64,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-It's Dario, Software Engineer. I love to solve problems with coding, it's my passion. I am here to help you to design software solutions. I can also help you to describe yourself in the best way with a web site.<br>No matter how difficult your problem is, I will find an easy way and complete your work anyway. Stay connect with me! 😊
+It's Dario, a Software Engineer. I love to solve problems with coding, it's my passion. I am here to help you to design and develop software solutions. I can also help you to describe yourself in the best way with a web site.<br>No matter how difficult your problem is, I will do whatever I can to find a way and complete your work anyway. Stay connect with me! 😊

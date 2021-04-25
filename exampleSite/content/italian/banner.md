@@ -1,14 +1,15 @@
 ---
-title : "I'm Somrat Sorkar"
+title : "Io sono <br> Dario Caricchio"
 # full screen navigation
-first_name : "MacGyver"
-last_name : "SOMRAT"
+first_name : "Dario"
+last_name : "Caricchio"
 bg_image : "images/backgrounds/full-nav-bg.jpg"
 # animated text loop
 occupations:
-- "Web Developer"
-- "Graphic Designer"
-- "Database Manager"
+- "Big Data Developer"
+- "Software Engineer"
+- "Backend Developer"
+- "ML Engineer"
 
 # slider background image loop
 slider_images:
@@ -19,13 +20,13 @@ slider_images:
 # button
 button:
   enable : true
-  label : "HIRE ME"
-  link : "#contact"
+  label : "Assumimi"
+  link : "/it/#contact"
 
 
 # custom style
-custom_class: "" 
-custom_attributes: "" 
+custom_class: ""
+custom_attributes: ""
 custom_css: ""
 
 ---

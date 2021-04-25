@@ -1,54 +1,62 @@
 ---
-title : "KNOW MORE <br> ABOUT ME"
+title : "SU DI ME"
 image : "images/backgrounds/portrait.jpg"
 # button
 button:
   enable : true
-  label : "DOWNLOAD MY CV"
+  label : "SCARICA IL MIO CV"
   link : "https://drive.google.com/file/d/1OmV4Ns6ngp9msP1ZkMQ9GwwB-Bn2urcu/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
   enable : true
-  title : "EXPERIENCE"
+  title : "MAIN EXPERIENCES"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "Big Data Engineer - Consulente"
+      company : "Sky Deutschland GmbH per conto di NTT Data Italia"
+      duration : "1/11/2020 - 15/03/2021"
+      content : "► Ingegnere Big Data su progetto di Sky DE utilizzando Scala e Java come linguaggi di programmazione e Google Cloud Platform.
+      ► Design e sviluppo di processi Spark in Scala usando i servizi GCP come Google Cloud Storage, Pub/Sub, Google DLP ed altri.
+      ► Design e sviluppo di processi Apache Beam per Dataflow usando SCIO, una libreria di Beam in Scala, Kafka e tecnologie GCS per l'elaborazione dei dati all'interno dell'ingestion layer in contesti sia batch che streaming.
+      ► Design e sviluppo di un POC per evidenziare varie strategie legate alla sicurezza dei precessi Dataflow attraverso Google KMS, DLP e la libreria crittografica Google Tink."
 
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name : "Big Data Engineer - Consulente"
+      company : "Enel S.p.A. per conto di ATOS S.p.A."
+      duration : "23/09/2019 – 15/10/2020"
+      content : '► Ingegnere Big Data su progetto Enel Next utilizzando Scala e Java come linguaggi di programmazione e ambiente Hadoop Cloudera.
+      ► Design e sviluppo di processi Spark attraverso una piattaforma Scala proprietaria costruita al di sopra dello Spark core.
+      ► Design e sviluppo di strumenti per la Data Quality usando le standard Spark Core API (spark 2.4.5 e Scala 2.11.12).
+      ► Design e sviluppo di strumenti per il Reporting basandosi su strumenti quali HIVE, Impala, file Parquet/ORC/Avro su S3 e HDFS al fine di ottenere la materializzazione dei dataset, Data Visualization e CSV/Excel file export.'
 
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Intern"
+      company : "Hamlyn Centre - Imperial College of London"
+      duration : "15/02/2019 – 18/07/2019"
+      content : '► Borsa di studio per il programma "Erasmus+ Traineeship BET for jobs".
+      ► Sviluppo di un algoritmo di compressione discusso in letteratura per sensori ECG con linguaggio di programmazione C.
+      ► Lavoro su "abnormal gait detection" (rilevamento della camminata anomala) usando il linguaggio di programmazione Python e relative librerie, combinando algoritmi di machine learning con metodologie per il pre-processing, feature extraction, dataset creation, data visualization, discrete wavelet transformation e classificazione.'
 
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "COMPETENZE"
   skill_list:
     # skill item loop
-    - name : "Web Development"
+    - name : "Computer Engineering"
       percentage : "98%"
 
     # skill item loop
-    - name : "Graphic Design"
+    - name : "Big Data"
       percentage : "85%"
 
     # skill item loop
-    - name : "Database Management"
+    - name : "Software Development"
       percentage : "90%"
 
     # skill item loop
-    - name : "Wordpress"
+    - name : "Machine Learning"
       percentage : "70%"
 
 
@@ -58,4 +66,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me........😊
+Sono Dario, un Ingegnere Informatico. Adoro risolvere problemi attraverso la programmazione e lo sviluppo di codice, È la mia passione. Sono sempre disponibile per progettare e sviluppare soluzioni software di varia natura. Posso anche aiutare a descrivere te stesso nel miglior modo possibile con un sito web.<br>Non importa quanto possa essere difficile un problema, farò tutto il possibile per trovare una soluzione e completare il lavoro. Rimaniamo in contatto! 😊

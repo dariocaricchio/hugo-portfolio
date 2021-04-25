@@ -9,7 +9,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
 # google analutics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "dariocaricchio" # example : UA-123-45
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
@@ -105,7 +105,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2021"
+copyright = "Copyright &copy; Dario Caricchio 2021"
 
 
 ################# English navigation ##################
@@ -160,7 +160,7 @@ contentDir = "content/italian"
 weight = 2
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2021"
+copyright = "Copyright &copy; Dario Caricchio 2021"
 
 
 ################# Italian navigation ##################
