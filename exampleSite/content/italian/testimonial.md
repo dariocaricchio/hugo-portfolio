@@ -1,5 +1,6 @@
 ---
 title : "TESTIMONIALS"
+enable : false
 testimonial_slider:
 # slider item loop
 - name : "Micheal Clark"

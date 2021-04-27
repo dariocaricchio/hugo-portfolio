@@ -134,11 +134,11 @@ pre = "#"
 url = "portfolio"
 weight = 4
 
-[[Languages.en.menu.main]]
-name = "Testimonial"
-pre = "#"
-url = "testimonial"
-weight = 5
+# [[Languages.en.menu.main]]
+# name = "Testimonial"
+# pre = "#"
+# url = "testimonial"
+# weight = 5
 
 [[Languages.en.menu.main]]
 name = "Contact"
@@ -189,11 +189,11 @@ pre = "/it/#"
 url = "portfolio"
 weight = 4
 
-[[Languages.it.menu.main]]
-name = "Referenze"
-pre = "/it/#"
-url = "testimonial"
-weight = 5
+# [[Languages.it.menu.main]]
+# name = "Referenze"
+# pre = "/it/#"
+# url = "testimonial"
+# weight = 5
 
 [[Languages.it.menu.main]]
 name = "Contatti"

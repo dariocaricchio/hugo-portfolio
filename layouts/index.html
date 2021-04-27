@@ -352,6 +352,7 @@
 
 <!-- Start Testimonials -->
 {{ with .GetPage "testimonial"}}
+{{ if .Params.enable }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="testimonials {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="testimonial">
   <div class="container">
@@ -374,6 +375,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 {{ end }}
 <!-- End Testimonials -->
 

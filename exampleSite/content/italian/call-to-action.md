@@ -1,9 +1,9 @@
 ---
-title : "NEED A SERVICE?"
+title : "HAI BISOGNO DI QUALCOSA?"
 bg_image : "images/backgrounds/need-service.jpg"
 button:
   enable : true
-  label : "SAY HELLO!"
+  label : "SCRIVIMI!"
   link : "#contact"
 
 
