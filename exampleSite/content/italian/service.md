@@ -1,28 +1,28 @@
 ---
-title : "SERVICES"
+title : "Servizi"
 service_list:
 # service item loop
-- name : "Web Development"
+- name : "Sviluppo Software"
   image : "images/icons/web-development.png"
   
 # service item loop
-- name : "Graphic Design"
+- name : "Problem Solving"
   image : "images/icons/graphic-design.png"
   
 # service item loop
-- name : "Database Management"
+- name : "Sviluppo Big Data"
   image : "images/icons/dbms.png"
   
 # service item loop
-- name : "Software Development"
+- name : "Ingegneria del software"
   image : "images/icons/software-development.png"
   
 # service item loop
-- name : "Digital Marketing"
+- name : "Machine Learning"
   image : "images/icons/marketing.png"
   
 # service item loop
-- name : "Mobile App Development"
+- name : "Sviluppo Mobile App"
   image : "images/icons/mobile-app.png"
 
 

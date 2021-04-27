@@ -2,23 +2,23 @@
 title : "SERVICES"
 service_list:
 # service item loop
-- name : "Web Development"
+- name : "Software Development"
   image : "images/icons/web-development.png"
   
 # service item loop
-- name : "Graphic Design"
+- name : "Problem Solving"
   image : "images/icons/graphic-design.png"
   
 # service item loop
-- name : "Database Management"
+- name : "Big Data Development"
   image : "images/icons/dbms.png"
   
 # service item loop
-- name : "Software Development"
+- name : "Software Engineering"
   image : "images/icons/software-development.png"
   
 # service item loop
-- name : "Digital Marketing"
+- name : "Machine Learning"
   image : "images/icons/marketing.png"
   
 # service item loop
