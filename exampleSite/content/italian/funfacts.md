@@ -1,6 +1,7 @@
 ---
 title: ""
 bg_image: "images/backgrounds/funfact-bg.jpg"
+enable: false
 funfacts:
 # funfacts item loop
 - name : "HANDS TO WORK"

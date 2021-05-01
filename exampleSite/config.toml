@@ -128,11 +128,11 @@ pre = "#"
 url = "service"
 weight = 3
 
-[[Languages.en.menu.main]]
-name = "Portfolio"
-pre = "#"
-url = "portfolio"
-weight = 4
+#[[Languages.en.menu.main]]
+#name = "Portfolio"
+#pre = "#"
+#url = "portfolio"
+#weight = 4
 
 # [[Languages.en.menu.main]]
 # name = "Testimonial"
@@ -183,11 +183,11 @@ pre = "/it/#"
 url = "service"
 weight = 3
 
-[[Languages.it.menu.main]]
-name = "Portfolio"
-pre = "/it/#"
-url = "portfolio"
-weight = 4
+# [[Languages.it.menu.main]]
+# name = "Portfolio"
+# pre = "/it/#"
+# url = "portfolio"
+# weight = 4
 
 # [[Languages.it.menu.main]]
 # name = "Referenze"
