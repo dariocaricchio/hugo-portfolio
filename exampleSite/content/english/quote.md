@@ -1,28 +1,8 @@
 ---
 title: ""
-bg_image: "images/backgrounds/funfact-bg.jpg"
-enable: false
-funfacts:
-# funfacts item loop
-- name : "HANDS TO WORK"
-  image : "images/icons/works.png"
-  count : "100"
-  
-# funfacts item loop
-- name : "HAPPY CLIENT"
-  image : "images/icons/happy.png"
-  count : "200"
-  
-# funfacts item loop
-- name : "FINISHED PROJECT"
-  image : "images/icons/project.png"
-  count : "250"
-  
-# funfacts item loop
-- name : "CUPS OF COFFEE"
-  image : "images/icons/coffee.png"
-  count : "150"
-
+bg_image: "images/backgrounds/quote-bg.jpg"
+enable: true
+quote_image: ""
 
 # custom style
 custom_class: "" 
