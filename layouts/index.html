@@ -411,11 +411,14 @@
 {{ if .Params.enable }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="wow fadeInUp section-sm {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s">
-  {{ with .Params.quote_image }}
-    <div class="about-me-images wow fadeInUp" style="margin-left: 1%">
-        <img class="img-fluid" src="{{ . | absURL }}" alt="about-me">
-    </div>
-  {{ end }}
+  <div class="about-me-images wow fadeInUp" style="margin-left: 1%">
+    <p style="font-size: 3em;font-family: vivaldi;" align="center">
+      {{.Params.quote_text}}
+    </p>
+    <p style="font-size: 3em;font-family: vivaldi; margin-right:10%" align="right">
+      {{.Params.quote_name}}
+    </p>
+  </div>
 </section>
 {{ end }}
 {{ end }}
