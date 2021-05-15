@@ -2,7 +2,7 @@
 title: ""
 bg_image: "images/backgrounds/quote-bg.jpg"
 enable: true
-quote_image: ""
+quote_image: "images/quote.png"
 
 # custom style
 custom_class: "" 
