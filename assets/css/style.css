@@ -2027,9 +2027,9 @@ textarea.form-control::-webkit-input-placeholder,
 
   .menu-container {
     justify-content: flex-end;
-    padding: 0px 20px;
+    padding: 20px;
     height: 0px;
-    background: #fff;
+    background: transparent;
   }
 
   .desktop-menu-logo {
