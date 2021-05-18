@@ -8,8 +8,8 @@ paginate = "6"
 summaryLength = "10"
 # disable language
 disableLanguages = [] # disable language from here
-# google analutics
-googleAnalytics = "dariocaricchio" # example : UA-123-45
+# google analytics
+googleAnalytics = "G-CSR15RVL9K" # example : UA-123-45
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
