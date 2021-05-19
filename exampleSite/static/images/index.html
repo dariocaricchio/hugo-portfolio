@@ -92,8 +92,8 @@
     <div class="menu-container">
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         {{ range site.Menus.main }}
-        <li class="menu-item hvr-underline-from-left 1"><a
-            href="{{if .Pre}}{{site.BaseURL | absURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+        <li class="menu-item hvr-underline-from-left 1">
+          <a href="{{if .Pre}}{{site.BaseURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
         </li>
         {{ end }}
       </ul>
