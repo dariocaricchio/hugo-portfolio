@@ -173,14 +173,14 @@ weight = 1
 
 [[Languages.it.menu.main]]
 name = "Su di me"
-pre = "#"
-url = "about"
+#pre = "#"
+url = "#about"
 weight = 2
 
 [[Languages.it.menu.main]]
 name = "Servizi"
-pre = "#"
-url = "service"
+#pre = "#"
+url = "#service"
 weight = 3
 
 # [[Languages.it.menu.main]]
@@ -198,5 +198,5 @@ weight = 3
 [[Languages.it.menu.main]]
 name = "Contatti"
 pre = "#"
-url = "contact"
+url = "#contact"
 weight = 6
