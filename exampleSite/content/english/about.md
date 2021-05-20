@@ -1,6 +1,6 @@
 ---
 title : "KNOW MORE <br> ABOUT ME"
-image : "images/backgrounds/portrait.jpg"
+image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/backgrounds/portrait_dlnmps.jpg" # "images/backgrounds/portrait.jpg"
 # button
 button:
   enable : true

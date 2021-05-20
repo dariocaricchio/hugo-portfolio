@@ -62,9 +62,9 @@ link = "plugins/owl-carousel/owl.carousel.min.js"
 
 #################### default parameters ################################
 [params]
-favicon = "images/favicon.png"
-logo_light = "images/logo.png"
-logo_dark = "images/logo-dark.png"
+favicon = "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548298/favicon_dchavf.png" # "images/favicon.png"
+logo_light = "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548299/logo_uonig8.png" # "images/logo.png"
+logo_dark = "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548299/logo-dark_hhwz5l.png" # "images/logo-dark.png"
 logo_width = "150px"
 # Meta data
 description = "Take a look to my portfolio!"
@@ -73,7 +73,8 @@ author = "Dario Caricchio"
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548299/preloader_xxzj5g.gif"
+# preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
