@@ -5,13 +5,26 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "SCARICA IL MIO CV"
-  link : "https://drive.google.com/file/d/1OmV4Ns6ngp9msP1ZkMQ9GwwB-Bn2urcu/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1KWDR_gKJ3kN3X2eWlJFqMtj9ailhrwsP/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
   enable : true
   title : "MAIN EXPERIENCES"
   experience_list:
+    # experience item loop
+    - name : "ML Engineer - Consulente"
+      company : "Walgreens Boots Alliance, Inc. per conto di Relatech "
+      duration : "30/03/2021 – 22/10/2021"
+      content : "► Analisi e sviluppo di un processo automatico per l'individuazione di inconsistenze dello schema e per
+        rilevare l'esistenza di chiavi primarie duplicate utilizzando il linguaggio Python e PySpark e in generale le
+        tecnologie Azure attraverso sia Databricks Workspace sia sviluppando in ambiente locale attraverso
+        databricks-connect e databricks-cli.
+      ► Generazione di delta table curate a partire da un ADLS storage account curato; le tabelle finali sono
+        equivalenti alle corrispettive tabelle curate presenti su Synapse (ADW).
+      ► Valutazione di algoritmi di Intelligenza Artificiale già in essere."
+
+
     # experience item loop
     - name : "Big Data Engineer - Consulente"
       company : "Sky Deutschland GmbH per conto di NTT Data Italia"

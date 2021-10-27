@@ -5,7 +5,7 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "https://drive.google.com/file/d/1OmV4Ns6ngp9msP1ZkMQ9GwwB-Bn2urcu/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1xKEQrvy1IsRODmZ6rM2zPVjkHpvr11G7/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
@@ -13,13 +13,24 @@ experience:
   title : "MAIN EXPERIENCES"
   experience_list:
     # experience item loop
+    - name : "ML Engineer Consultant"
+      company : "Walgreens Boots Alliance, Inc. on behalf of Relatech"
+      duration : "30/03/2021 – 22/10/2021"
+      content : '► Analysis and development of an automatic process to detect Schema Inconsistencies and detect the existing of
+Duplicate Primary Keys using Python, PySpark and more in general Azure tecnologies; both Databricks Workspace
+and local environment using databrick-connect and databricks-cli have been used.
+      ► Generation of curated delta tables starting from the curated ADLS storage account; the curated delta tables are
+equivalent to the curated tables found on Synapse (ADW).
+      ► Enhancement of existing AI Algorithms.'
+
+    # experience item loop
     - name : "Big Data Engineer Consultant"
       company : "Sky Deutschland GmbH on behalf of NTT Data Italia"
       duration : "1/11/2020 - 15/03/2021"
       content : '► Big Data Engineer on Sky DE project using Scala and Java programming languages and Google Cloud Platform.
-► Design and develop of Spark jobs on Scala using GCP services like Google Cloud Storage, Pub/Sub, Google DLP and many more.
-► Design and develop of Apache Beam jobs for Dataflow using SCIO, a Beam Scala framework, for both batch and streaming contexts using GCS and Kafka technologies into the ingestion layer.
-► Design and develop of a POC for security strategies for Dataflow jobs using Google KMS, DLP and Google Tink crypto library.'
+      ► Design and develop of Spark jobs on Scala using GCP services like Google Cloud Storage, Pub/Sub, Google DLP and many more.
+      ► Design and develop of Apache Beam jobs for Dataflow using SCIO, a Beam Scala framework, for both batch and streaming contexts using GCS and Kafka technologies into the ingestion layer.
+      ► Design and develop of a POC for security strategies for Dataflow jobs using Google KMS, DLP and Google Tink crypto library.'
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
