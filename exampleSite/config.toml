@@ -97,6 +97,11 @@ link = "https://github.com/dariocaricchio"
 icon = "fab fa-linkedin"
 link = "https://www.linkedin.com/in/dariocaricchio/"
 
+####################################### Cookies #########################################
+[params.cookies]
+enable = true
+expire_days = 2
+
 
 ################################### English language #####################################
 [Languages.en]
@@ -161,7 +166,7 @@ contentDir = "content/italian"
 weight = 2
 home = "Home"
 # copyright
-copyright = "Copyright &copy; Dario Caricchio 2021"
+copyright = "Copyright &copy; Dario Caricchio 2022"
 
 
 ################# Italian navigation ##################
