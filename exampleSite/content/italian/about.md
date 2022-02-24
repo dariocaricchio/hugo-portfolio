@@ -5,13 +5,22 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "SCARICA IL MIO CV"
-  link : "https://drive.google.com/file/d/1KWDR_gKJ3kN3X2eWlJFqMtj9ailhrwsP/view?usp=sharing"
+  link : "https://drive.google.com/file/d/12w_gyn5kbNmfxWqfC47xuWMEwR8qINoP/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
   enable : true
-  title : "MAIN EXPERIENCES"
+  title : "ESPERIENZE PRINCIPALI"
   experience_list:
+
+    # experience item loop
+    - name : "Big Data Engineer - Consulente"
+      company : "Vodafone Italia per conto di NTT Data Italia"
+      duration : "25/10/2021 – in corso"
+      content : "► Analisi e sviluppo di job Spark in Scala i quali vengono eseguiti su cluster Dataproc su GCP al fine di processare dati presenti in Google Storage per mascherare informazioni sensibili.<br>
+      ► Orchestrazione, sviluppo, mantenimento e verifica DAG di Airflow in Python con PySpark attraverso i servizi GCP quali Composer, Dataproc e Google Storage per l'analisi dei dati.<br>
+      ► Operazioni di tuning, bug-fixing, analisi delle performance e miglioramento di job Spark preesistenti."
+
     # experience item loop
     - name : "ML Engineer - Consulente"
       company : "Walgreens Boots Alliance, Inc. per conto di Relatech "
@@ -19,9 +28,9 @@ experience:
       content : "► Analisi e sviluppo di un processo automatico per l'individuazione di inconsistenze dello schema e per
         rilevare l'esistenza di chiavi primarie duplicate utilizzando il linguaggio Python e PySpark e in generale le
         tecnologie Azure attraverso sia Databricks Workspace sia sviluppando in ambiente locale attraverso
-        databricks-connect e databricks-cli.
+        databricks-connect e databricks-cli.<br>
       ► Generazione di delta table curate a partire da un ADLS storage account curato; le tabelle finali sono
-        equivalenti alle corrispettive tabelle curate presenti su Synapse (ADW).
+        equivalenti alle corrispettive tabelle curate presenti su Synapse (ADW).<br>
       ► Valutazione di algoritmi di Intelligenza Artificiale già in essere."
 
 
@@ -29,26 +38,26 @@ experience:
     - name : "Big Data Engineer - Consulente"
       company : "Sky Deutschland GmbH per conto di NTT Data Italia"
       duration : "1/11/2020 - 15/03/2021"
-      content : "► Ingegnere Big Data su progetto di Sky DE utilizzando Scala e Java come linguaggi di programmazione e Google Cloud Platform.
-      ► Design e sviluppo di processi Spark in Scala usando i servizi GCP come Google Cloud Storage, Pub/Sub, Google DLP ed altri.
-      ► Design e sviluppo di processi Apache Beam per Dataflow usando SCIO, una libreria di Beam in Scala, Kafka e tecnologie GCS per l'elaborazione dei dati all'interno dell'ingestion layer in contesti sia batch che streaming.
+      content : "► Ingegnere Big Data su progetto di Sky DE utilizzando Scala e Java come linguaggi di programmazione e Google Cloud Platform.<br>
+      ► Design e sviluppo di processi Spark in Scala usando i servizi GCP come Google Cloud Storage, Pub/Sub, Google DLP ed altri.<br>
+      ► Design e sviluppo di processi Apache Beam per Dataflow usando SCIO, una libreria di Beam in Scala, Kafka e tecnologie GCS per l'elaborazione dei dati all'interno dell'ingestion layer in contesti sia batch che streaming.<br>
       ► Design e sviluppo di un POC per evidenziare varie strategie legate alla sicurezza dei precessi Dataflow attraverso Google KMS, DLP e la libreria crittografica Google Tink."
 
     # experience item loop
     - name : "Big Data Engineer - Consulente"
       company : "Enel S.p.A. per conto di ATOS S.p.A."
       duration : "23/09/2019 – 15/10/2020"
-      content : '► Ingegnere Big Data su progetto Enel Next utilizzando Scala e Java come linguaggi di programmazione e ambiente Hadoop Cloudera.
-      ► Design e sviluppo di processi Spark attraverso una piattaforma Scala proprietaria costruita al di sopra dello Spark core.
-      ► Design e sviluppo di strumenti per la Data Quality usando le standard Spark Core API (spark 2.4.5 e Scala 2.11.12).
+      content : '► Ingegnere Big Data su progetto Enel Next utilizzando Scala e Java come linguaggi di programmazione e ambiente Hadoop Cloudera.<br>
+      ► Design e sviluppo di processi Spark attraverso una piattaforma Scala proprietaria costruita al di sopra dello Spark core.<br>
+      ► Design e sviluppo di strumenti per la Data Quality usando le standard Spark Core API (spark 2.4.5 e Scala 2.11.12).<br>
       ► Design e sviluppo di strumenti per il Reporting basandosi su strumenti quali HIVE, Impala, file Parquet/ORC/Avro su S3 e HDFS al fine di ottenere la materializzazione dei dataset, Data Visualization e CSV/Excel file export.'
 
     # experience item loop
     - name : "Intern"
       company : "Hamlyn Centre - Imperial College of London"
       duration : "15/02/2019 – 18/07/2019"
-      content : '► Borsa di studio per il programma "Erasmus+ Traineeship BET for jobs".
-      ► Sviluppo di un algoritmo di compressione discusso in letteratura per sensori ECG con linguaggio di programmazione C.
+      content : '► Borsa di studio per il programma "Erasmus+ Traineeship BET for jobs".<br>
+      ► Sviluppo di un algoritmo di compressione discusso in letteratura per sensori ECG con linguaggio di programmazione C.<br>
       ► Lavoro su "abnormal gait detection" (rilevamento della camminata anomala) usando il linguaggio di programmazione Python e relative librerie, combinando algoritmi di machine learning con metodologie per il pre-processing, feature extraction, dataset creation, data visualization, discrete wavelet transformation e classificazione.'
 
 ############################### Skill #################################
@@ -71,6 +80,10 @@ skill:
     # skill item loop
     - name : "Machine Learning"
       percentage : "70%"
+
+    # skill item loop
+    - name : "Servizi Cloud"
+      percentage : "80%"
 
 
 # custom style

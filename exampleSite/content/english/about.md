@@ -5,40 +5,46 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "https://drive.google.com/file/d/1xKEQrvy1IsRODmZ6rM2zPVjkHpvr11G7/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1yY1j3HI88_tIo6WWEIfYYUh1zdLn8XDh/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
   enable : true
   title : "MAIN EXPERIENCES"
   experience_list:
+
+    # experience item loop
+    - name : "Big Data Engineer Consultant"
+      company : "Vodafone Italia on behalf of NTT Data Italia"
+      duration : "25/10/2021 – Ongoing"
+      content : '► Design and develop of Spark jobs on Scala which run on GCP Dataproc clusters to process data on Google Storage for masking purposes.<br>
+      ► Airflow DAGs orchestration, develop, mantainance and testing on Python with PySpark using GCP Composer, Dataproc and Google Storage for analytics reasons.<br>
+      ► Existing Spark jobs tuning, bug fixing, performance analysis and improvements.'
+
     # experience item loop
     - name : "ML Engineer Consultant"
       company : "Walgreens Boots Alliance, Inc. on behalf of Relatech"
       duration : "30/03/2021 – 22/10/2021"
-      content : '► Analysis and development of an automatic process to detect Schema Inconsistencies and detect the existing of
-Duplicate Primary Keys using Python, PySpark and more in general Azure tecnologies; both Databricks Workspace
-and local environment using databrick-connect and databricks-cli have been used.
-      ► Generation of curated delta tables starting from the curated ADLS storage account; the curated delta tables are
-equivalent to the curated tables found on Synapse (ADW).
+      content : '► Analysis and development of an automatic process to detect Schema Inconsistencies and detect the existing of Duplicated Primary Keys using Python, PySpark and more in general Azure tecnologies; both Databricks Workspace and local environment using databrick-connect and databricks-cli have been used.<br>
+      ► Generation of curated delta tables starting from the curated ADLS storage account; the curated delta tables are equivalent to the curated tables found on Synapse (ADW).<br>
       ► Enhancement of existing AI Algorithms.'
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
       company : "Sky Deutschland GmbH on behalf of NTT Data Italia"
       duration : "1/11/2020 - 15/03/2021"
-      content : '► Big Data Engineer on Sky DE project using Scala and Java programming languages and Google Cloud Platform.
-      ► Design and develop of Spark jobs on Scala using GCP services like Google Cloud Storage, Pub/Sub, Google DLP and many more.
-      ► Design and develop of Apache Beam jobs for Dataflow using SCIO, a Beam Scala framework, for both batch and streaming contexts using GCS and Kafka technologies into the ingestion layer.
+      content : '► Big Data Engineer on Sky DE project using Scala and Java programming languages and Google Cloud Platform.<br>
+      ► Design and develop of Spark jobs on Scala using GCP services like Google Cloud Storage, Pub/Sub, Google DLP and many more.<br>
+      ► Design and develop of Apache Beam jobs for Dataflow using SCIO, a Beam Scala framework, for both batch and streaming contexts using GCS and Kafka technologies into the ingestion layer.<br>
       ► Design and develop of a POC for security strategies for Dataflow jobs using Google KMS, DLP and Google Tink crypto library.'
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
       company : "Enel S.p.A. on behalf of ATOS S.p.A."
       duration : "23/09/2019 – 15/10/2020"
-      content : '► Big Data Engineer on Enel Next Project using Scala and Java programming languages, Hadoop Cloudera Distribution.
-      ► Design and develop of Spark jobs on proprietary Scala platform built on top of Spark core.
-      ► Design and develop of Data Quality Tool using standard Spark Core API (spark 2.4.5 and Scala 2.11.12).
+      content : '► Big Data Engineer on Enel Next Project using Scala and Java programming languages, Hadoop Cloudera Distribution.<br>
+      ► Design and develop of Spark jobs on proprietary Scala platform built on top of Spark core.<br>
+      ► Design and develop of Data Quality Tool using standard Spark Core API (spark 2.4.5 and Scala 2.11.12).<br>
       ► Design and Develop of Reporting tools based on HIVE, Impala, Parquet/ORC/Avro files on S3 and HDFS for dataset materialization, Data Visualization and CSV/Excel file export.'
 
     # experience item loop
@@ -67,6 +73,10 @@ skill:
     # skill item loop
     - name : "Machine Learning"
       percentage : "70%"
+
+    # skill item loop
+    - name : "Cloud Services"
+      percentage : "80%"
 
 
 # custom style
