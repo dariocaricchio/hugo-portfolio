@@ -5,7 +5,7 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "SCARICA IL MIO CV"
-  link : "https://drive.google.com/file/d/12w_gyn5kbNmfxWqfC47xuWMEwR8qINoP/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1Wq-RNOlxgV-q_rxMYXxeN9n7BlxRGQE7/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
@@ -15,15 +15,20 @@ experience:
 
     # experience item loop
     - name : "Big Data Engineer - Consulente"
-      company : "Vodafone Italia per conto di NTT Data Italia"
-      duration : "25/10/2021 – in corso"
+      company : "Azienda Britannica Multinazionale di Telecomunicazioni (divisione italiana) per conto di Capgemini"
+      duration : "06/06/2022 – in corso"
+    
+    - name : "Big Data Engineer - Consulente"
+      company : "Azienda Britannica Multinazionale di Telecomunicazioni (divisione italiana) per conto di Azienda Giapponese Multinazionale di Servizi IT e Consulenza (divisione italiana)"
+      duration : "25/10/2021 – 31/05/2022"
       content : "► Analisi e sviluppo di job Spark in Scala i quali vengono eseguiti su cluster Dataproc su GCP al fine di processare dati presenti in Google Storage per mascherare informazioni sensibili.<br>
       ► Orchestrazione, sviluppo, mantenimento e verifica DAG di Airflow in Python con PySpark attraverso i servizi GCP quali Composer, Dataproc e Google Storage per l'analisi dei dati.<br>
-      ► Operazioni di tuning, bug-fixing, analisi delle performance e miglioramento di job Spark preesistenti."
+      ► Operazioni di tuning, bug-fixing, analisi delle performance e miglioramento di job Spark preesistenti.<br>
+      ► Progettazione, analisi e sviluppo di funzioni, stored procedures e tabelle in BigQuery usando SQL e vari connettori, come Airflow, Google Storage e Pyspark."
 
     # experience item loop
     - name : "ML Engineer - Consulente"
-      company : "Walgreens Boots Alliance, Inc. per conto di Relatech "
+      company : "Azienda Americana-Britannica-Svizzera Multinazionale di Distribuzione Farmaceutica per conto di Azienda Italiana di Digital Solution"
       duration : "30/03/2021 – 22/10/2021"
       content : "► Analisi e sviluppo di un processo automatico per l'individuazione di inconsistenze dello schema e per
         rilevare l'esistenza di chiavi primarie duplicate utilizzando il linguaggio Python e PySpark e in generale le
@@ -36,16 +41,16 @@ experience:
 
     # experience item loop
     - name : "Big Data Engineer - Consulente"
-      company : "Sky Deutschland GmbH per conto di NTT Data Italia"
+      company : "Azienda Britannica Multinazionale di Media e Telecomunicazioni (divisione tedesca e austriaca) per conto di Azienda Giapponese Multinazionale di Servizi IT e Consulenza (divisione italiana)"
       duration : "1/11/2020 - 15/03/2021"
-      content : "► Ingegnere Big Data su progetto di Sky DE utilizzando Scala e Java come linguaggi di programmazione e Google Cloud Platform.<br>
+      content : "► Ingegnere Big Data su progetto cliente utilizzando Scala e Java come linguaggi di programmazione e Google Cloud Platform.<br>
       ► Design e sviluppo di processi Spark in Scala usando i servizi GCP come Google Cloud Storage, Pub/Sub, Google DLP ed altri.<br>
       ► Design e sviluppo di processi Apache Beam per Dataflow usando SCIO, una libreria di Beam in Scala, Kafka e tecnologie GCS per l'elaborazione dei dati all'interno dell'ingestion layer in contesti sia batch che streaming.<br>
       ► Design e sviluppo di un POC per evidenziare varie strategie legate alla sicurezza dei precessi Dataflow attraverso Google KMS, DLP e la libreria crittografica Google Tink."
 
     # experience item loop
     - name : "Big Data Engineer - Consulente"
-      company : "Enel S.p.A. per conto di ATOS S.p.A."
+      company : "Azienda Italiana Multinazionale di Elettricità-Gas per conto di Azieda Francese Multinazionale di Servizi IT e Consulenza"
       duration : "23/09/2019 – 15/10/2020"
       content : '► Ingegnere Big Data su progetto Enel Next utilizzando Scala e Java come linguaggi di programmazione e ambiente Hadoop Cloudera.<br>
       ► Design e sviluppo di processi Spark attraverso una piattaforma Scala proprietaria costruita al di sopra dello Spark core.<br>
@@ -84,6 +89,9 @@ skill:
     # skill item loop
     - name : "Servizi Cloud"
       percentage : "80%"
+
+  subtitle: CERTIFICAZIONI
+  description: "Puoi dare un'occhiata alle mie certificazioni sul mio [Profilo Linkedin](https://www.linkedin.com/in/dariocaricchio/details/certifications/)."
 
 
 # custom style

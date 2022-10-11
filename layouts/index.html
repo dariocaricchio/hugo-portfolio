@@ -209,7 +209,7 @@
           <li>
             <div class="single-experience">
               <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }} <br>
               {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
             </div>
@@ -234,6 +234,10 @@
             </div>
           </div>
           {{ end }}
+        </div>
+        <div class="skill wow fadeInUp" data-wow-duration="1.5s" style="margin-top: 20%;">
+          <h3>{{ .subtitle }}</h3>
+          <h4>{{ .description | markdownify }}</h4>
         </div>
       </div>
       {{ end }}
