@@ -5,7 +5,7 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "https://drive.google.com/file/d/1yY1j3HI88_tIo6WWEIfYYUh1zdLn8XDh/view?usp=sharing"
+  link : "https://drive.google.com/file/d/1d4y3cCBuzzabenr7GooZMVZOmY_bXY7X/view?usp=sharing"
 
 ########################### Experience ##############################
 experience:
@@ -15,15 +15,24 @@ experience:
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
-      company : "Vodafone Italia on behalf of NTT Data Italia"
-      duration : "25/10/2021 – Ongoing"
+      company : "Vodafone Italia on behalf of Capgemini"
+      duration : "06/06/2022 – Ongoing"
       content : '► Design and develop of Spark jobs on Scala which run on GCP Dataproc clusters to process data on Google Storage for masking purposes.<br>
       ► Airflow DAGs orchestration, develop, mantainance and testing on Python with PySpark using GCP Composer, Dataproc and Google Storage for analytics reasons.<br>
-      ► Existing Spark jobs tuning, bug fixing, performance analysis and improvements.'
+      ► Existing Spark jobs tuning, bug fixing, performance analysis and improvements.<br>
+      ► Design, develop and maintenance of BigQuery functions, stored procedures and tables using SQL and connecting with Airflow, Google Storage and Pyspark.'
+
+    - name : "Big Data Engineer Consultant"
+      company : "British Multinational Telecommunications Company (Italian division) on behalf of a Japanese Multinational IT Service and Consulting Company (Italian division)"
+      duration : "25/10/2021 – 31/05/2022"
+      content : '► Design and develop of Spark jobs on Scala which run on GCP Dataproc clusters to process data on Google Storage for masking purposes.<br>
+      ► Airflow DAGs orchestration, develop, mantainance and testing on Python with PySpark using GCP Composer, Dataproc and Google Storage for analytics reasons.<br>
+      ► Existing Spark jobs tuning, bug fixing, performance analysis and improvements.<br>
+      ► Design, develop and maintenance of BigQuery functions, stored procedures and tables using SQL and connecting with Airflow, Google Storage and Pyspark.'
 
     # experience item loop
     - name : "ML Engineer Consultant"
-      company : "Walgreens Boots Alliance, Inc. on behalf of Relatech"
+      company : "American-British-Swiss Multinational Retail Pharmacy Company on behalf of an Italian Digital Solution Company"
       duration : "30/03/2021 – 22/10/2021"
       content : '► Analysis and development of an automatic process to detect Schema Inconsistencies and detect the existing of Duplicated Primary Keys using Python, PySpark and more in general Azure tecnologies; both Databricks Workspace and local environment using databrick-connect and databricks-cli have been used.<br>
       ► Generation of curated delta tables starting from the curated ADLS storage account; the curated delta tables are equivalent to the curated tables found on Synapse (ADW).<br>
@@ -31,16 +40,16 @@ experience:
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
-      company : "Sky Deutschland GmbH on behalf of NTT Data Italia"
+      company : "British Multinational Media and Telecommunication Company (German and Austrian division) on behalf of a Japanese Multinational IT Service and Consulting Company (Italian division)"
       duration : "1/11/2020 - 15/03/2021"
-      content : '► Big Data Engineer on Sky DE project using Scala and Java programming languages and Google Cloud Platform.<br>
+      content : '► Big Data Engineer on client project using Scala and Java programming languages and Google Cloud Platform.<br>
       ► Design and develop of Spark jobs on Scala using GCP services like Google Cloud Storage, Pub/Sub, Google DLP and many more.<br>
       ► Design and develop of Apache Beam jobs for Dataflow using SCIO, a Beam Scala framework, for both batch and streaming contexts using GCS and Kafka technologies into the ingestion layer.<br>
       ► Design and develop of a POC for security strategies for Dataflow jobs using Google KMS, DLP and Google Tink crypto library.'
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
-      company : "Enel S.p.A. on behalf of ATOS S.p.A."
+      company : "Italian Multinational Electricity-Gas Company on behalf of a French Multinational IT Service and Consulting Company"
       duration : "23/09/2019 – 15/10/2020"
       content : '► Big Data Engineer on Enel Next Project using Scala and Java programming languages, Hadoop Cloudera Distribution.<br>
       ► Design and develop of Spark jobs on proprietary Scala platform built on top of Spark core.<br>
@@ -77,6 +86,9 @@ skill:
     # skill item loop
     - name : "Cloud Services"
       percentage : "80%"
+  
+  subtitle: CERTIFICATIONS
+  description: "See my certifications on my [Linkedin profile](https://www.linkedin.com/in/dariocaricchio/details/certifications/)."
 
 
 # custom style
