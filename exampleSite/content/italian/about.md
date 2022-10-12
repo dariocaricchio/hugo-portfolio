@@ -15,16 +15,8 @@ experience:
 
     # experience item loop
     - name : "Big Data Engineer - Consulente"
-      company : "Vodafone Italia per conto di Capgemini"
-      duration : "06/06/2022 – in corso"
-      content : "► Analisi e sviluppo di job Spark in Scala i quali vengono eseguiti su cluster Dataproc su GCP al fine di processare dati presenti in Google Storage per mascherare informazioni sensibili.<br>
-      ► Orchestrazione, sviluppo, mantenimento e verifica DAG di Airflow in Python con PySpark attraverso i servizi GCP quali Composer, Dataproc e Google Storage per l'analisi dei dati.<br>
-      ► Operazioni di tuning, bug-fixing, analisi delle performance e miglioramento di job Spark preesistenti.<br>
-      ► Progettazione, analisi e sviluppo di funzioni, stored procedures e tabelle in BigQuery usando SQL e vari connettori, come Airflow, Google Storage e Pyspark."
-    
-    - name : "Big Data Engineer - Consulente"
-      company : "Azienda Britannica Multinazionale di Telecomunicazioni (divisione italiana) per conto di Azienda Giapponese Multinazionale di Servizi IT e Consulenza (divisione italiana)"
-      duration : "25/10/2021 – 31/05/2022"
+      company : "Vodafone Italia per conto di NTT Data Italia ~ Capgemini"
+      duration : "25/10/2021 – 31/05/2022 ~ 06/06/2022 – in corso"
       content : "► Analisi e sviluppo di job Spark in Scala i quali vengono eseguiti su cluster Dataproc su GCP al fine di processare dati presenti in Google Storage per mascherare informazioni sensibili.<br>
       ► Orchestrazione, sviluppo, mantenimento e verifica DAG di Airflow in Python con PySpark attraverso i servizi GCP quali Composer, Dataproc e Google Storage per l'analisi dei dati.<br>
       ► Operazioni di tuning, bug-fixing, analisi delle performance e miglioramento di job Spark preesistenti.<br>

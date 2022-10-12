@@ -15,16 +15,8 @@ experience:
 
     # experience item loop
     - name : "Big Data Engineer Consultant"
-      company : "Vodafone Italia on behalf of Capgemini"
-      duration : "06/06/2022 – Ongoing"
-      content : '► Design and develop of Spark jobs on Scala which run on GCP Dataproc clusters to process data on Google Storage for masking purposes.<br>
-      ► Airflow DAGs orchestration, develop, mantainance and testing on Python with PySpark using GCP Composer, Dataproc and Google Storage for analytics reasons.<br>
-      ► Existing Spark jobs tuning, bug fixing, performance analysis and improvements.<br>
-      ► Design, develop and maintenance of BigQuery functions, stored procedures and tables using SQL and connecting with Airflow, Google Storage and Pyspark.'
-
-    - name : "Big Data Engineer Consultant"
-      company : "British Multinational Telecommunications Company (Italian division) on behalf of a Japanese Multinational IT Service and Consulting Company (Italian division)"
-      duration : "25/10/2021 – 31/05/2022"
+      company : "Vodafone Italia on behalf of NTT Data Italia ~ Capgemini"
+      duration : "25/10/2021 – 31/05/2022 ~ 06/06/2022 – Ongoing"
       content : '► Design and develop of Spark jobs on Scala which run on GCP Dataproc clusters to process data on Google Storage for masking purposes.<br>
       ► Airflow DAGs orchestration, develop, mantainance and testing on Python with PySpark using GCP Composer, Dataproc and Google Storage for analytics reasons.<br>
       ► Existing Spark jobs tuning, bug fixing, performance analysis and improvements.<br>
