@@ -1,10 +1,10 @@
 ---
 title: "This Is A Simple Blog Post"
 date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item3.jpg"
-tags: ["web","development"]
+image: "images/portfolio/item1.jpg"
+tags: ["design","development"]
 description: "This is meta description."
-draft: false
+draft: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
