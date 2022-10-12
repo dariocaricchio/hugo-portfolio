@@ -1,5 +1,5 @@
 ---
-title: "ARTICOLI"
+title: "Articoli"
 description: "In questa sezione vi sono tutorial, approfondimenti, considerazioni ed altro ancora."
 draft: false
 
