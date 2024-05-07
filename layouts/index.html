@@ -238,6 +238,11 @@
         <div class="skill wow fadeInUp" data-wow-duration="1.5s" style="margin-top: 20%;">
           <h3>{{ .subtitle }}</h3>
           <h4>{{ .description | markdownify }}</h4>
+          <div class="single-experience wow fadeInUp" data-wow-duration="1.5s" style="margin-top: 5%;">
+            <a style="color: transparent;" href="{{ .gcp_link | absURL }}" title="{{ .Subtitle | markdownify }}">
+               <img class="img-fluid" src="{{ .gcp_image | absURL }}" alt="{{ .Subtitle | markdownify }}">
+            </a>
+          </div>
         </div>
       </div>
       {{ end }}
@@ -297,6 +302,7 @@
 
 <!-- Start Portfolio -->
 {{ with .GetPage "portfolio"}}
+{{ if .Params.enable }}
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="portfolio {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="portfolio">
   <div class="container-fluid text-center">
@@ -351,6 +357,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 {{ end }}
 <!-- End Portfolio -->
 
