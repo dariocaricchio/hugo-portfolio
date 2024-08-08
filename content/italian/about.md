@@ -83,19 +83,19 @@ skill:
 
     # skill item loop
     - name : "Big Data"
-      percentage : "85%"
+      percentage : "95%"
 
     # skill item loop
     - name : "Software Development"
-      percentage : "90%"
+      percentage : "92%"
 
     # skill item loop
     - name : "Machine Learning"
-      percentage : "70%"
+      percentage : "75%"
 
     # skill item loop
-    - name : "Servizi Cloud"
-      percentage : "80%"
+    - name : "Cloud Services"
+      percentage : "90%"
 
   subtitle: CERTIFICAZIONI
   description: "Puoi dare un'occhiata alle mie certificazioni sul mio [Profilo Linkedin](https://www.linkedin.com/in/dariocaricchio/details/certifications/)."
