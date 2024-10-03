@@ -109,4 +109,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-It's Dario, a Software Engineer. I love to solve problems with coding, it's my passion. I am here to help you to design and develop software solutions. I can also help you to describe yourself in the best way with a web site.<br>No matter how difficult your problem is, I will do whatever I can to find a way and complete your work anyway. Stay connected with me! 😊
+This is Dario, a software engineer. I love solving problems with coding, it's my passion. I am here to help you design and develop software solutions. I can also help you describe yourself in the best way with a website.<br>No matter how difficult your problem is, I will do whatever I can to find a way and complete your work anyway. Stay in touch with me! 😊
