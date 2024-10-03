@@ -4,8 +4,8 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 # button
 button:
   enable : true
-  label : "DOWNLOAD MY CV"
-  link : "https://drive.google.com/file/d/16X7reW48e_fAFlfH1efaTgpcd7vsH3-F/view?usp=sharing"
+  label : "DOWNLOAD MY RESUME"
+  link : "https://drive.google.com/file/d/1mJ_fq11RBvdwoFA8FwdLSqrAqwfCycis/view?usp=drive_link"
 
 ########################### Experience ##############################
 experience:
