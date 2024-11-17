@@ -16,7 +16,7 @@ experience:
     # experience item loop
     - name : "Big Data Engineer Consultant"
       company : "British Multinational Telecommunications Company (Italian division) on behalf of Capgemini"
-      duration : "06/06/2022 – in corso"
+      duration : "18/03/2024 – in corso"
       content : '► Varie attività di *Application Management Services* su **GCP** con diversi servizi come **Composer** e relativi DAG di **Airflow** in **Python**, **Cloud Storage**, **Cloud Functions**, analisi in **BigQuery** con **SQL**, **Dataproc**, **Firestore**.'
 
     - name : "Big Data Engineer - Consulente"

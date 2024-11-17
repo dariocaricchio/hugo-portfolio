@@ -16,7 +16,7 @@ experience:
     # experience item loop
     - name : "Big Data Engineer Consultant"
       company : "American Multinational Manufacturer and Marketer Company (both USA and EMEA division) on behalf of Capgemini"
-      duration : "06/06/2022 – Ongoing"
+      duration : "18/03/2024 – Ongoing"
       content : '► *Application Management Services* activities on **GCP** using various cloud services like **Composer** and the related **Airflow** DAG written in **Python**, **Cloud Storage**, **Cloud Functions**, analysis on **BigQuery** using **SQL**, **Dataproc**, **Firestore**.'
 
     - name : "Big Data Engineer Consultant"
