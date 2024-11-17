@@ -253,6 +253,23 @@
 {{ end }}
 <!-- End About Me -->
 
+<!-- call to action -->
+{{ with .GetPage "call-to-action" }}
+<style>{{.Params.custom_css | safeCSS}}</style>
+<section id="cta" class="need-service overlay section-sm wow fadeInUp {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s" style="background-image: url('{{ .Params.bg_image | absURL }}');">
+  <div class="container position-relative z-index-9">
+    <h1>{{ .Title | markdownify }}</h1>
+    {{ with .Content }}<div class="text-white content">{{ . | markdownify }}</div> {{ end }}
+    {{ with .Params.button }}
+    {{ if .enable }}
+    <a href="{{ .link | relURL}}">{{ .label }}</a>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+<!-- end call to action -->
+
 <!-- Start Services -->
 {{ with .GetPage "service" }}
 <style>{{.Params.custom_css | safeCSS}}</style>
@@ -282,23 +299,6 @@
 </section>
 {{ end }}
 <!-- End Services -->
-
-<!-- call to action -->
-{{ with .GetPage "call-to-action" }}
-<style>{{.Params.custom_css | safeCSS}}</style>
-<section id="cta" class="need-service overlay section-sm wow fadeInUp {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s" style="background-image: url('{{ .Params.bg_image | absURL }}');">
-  <div class="container position-relative z-index-9">
-    <h1>{{ .Title | markdownify }}</h1>
-    {{ with .Content }}<div class="text-white content">{{ . | markdownify }}</div> {{ end }}
-    {{ with .Params.button }}
-    {{ if .enable }}
-    <a href="{{ .link | relURL}}">{{ .label }}</a>
-    {{ end }}
-    {{ end }}
-  </div>
-</section>
-{{ end }}
-<!-- end call to action -->
 
 <!-- Start Portfolio -->
 {{ with .GetPage "portfolio"}}
@@ -423,12 +423,13 @@
 <style>{{.Params.custom_css | safeCSS}}</style>
 <section class="wow fadeInUp section-sm {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} data-wow-duration="1.5s">
   <div class="about-me-images wow fadeInUp" style="margin-left: 1%">
-    <p style="font-size: 3em;font-family: vivaldi;" align="center">
+    <img class="img-fluid" src="https://zenquotes.io/api/image" alt="random-quote-image">
+    {{/*  <p style="font-size: 3em;font-family: vivaldi;" align="center">
       {{.Params.quote_text}}
     </p>
     <p style="font-size: 3em;font-family: vivaldi; margin-right:10%" align="right">
       {{.Params.quote_name}}
-    </p>
+    </p>  */}}
   </div>
 </section>
 {{ end }}
