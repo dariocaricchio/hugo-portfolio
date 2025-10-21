@@ -14,9 +14,22 @@ experience:
   experience_list:
 
     # experience item loop
+    - name : "Information Technology Officers"
+      company : "Regione Calabria"
+      duration : "05/08/2025 – Ongoing"
+      content : '► Defining main **strategies** for Regione Calabria in **Security**, **AI** and many other fields.<br>
+      ► Collaborating with Regione Calabria's partners to accelerate and improve the **Digital Transition** throughout the region.'
+
+    - name : "Data Engineer"
+      company : "Renewcast"
+      duration : "09/12/2024 – 04/08/2025"
+      content : '► Developing **data platform** and its features through **data-driven approaches and scalability enhancements**.<br>
+      ► Deploying and optimizing AI models, automating workflows, and building scalable data solutions.<br>
+      ► Harnessing deep expertise in **Cloud** services (**Azure**), **Airflow**, **Spark**, **Python**, and **Databricks**, alongside a comprehensive understanding of AI-driven analytics, **DevOps**, and **model orchestration**, he architected and deployed scalable, ML-powered solutions to enhance renewable energy.'
+
     - name : "Big Data Engineer Consultant"
       company : "American Multinational Manufacturer and Marketer Company (both USA and EMEA division) on behalf of Capgemini"
-      duration : "18/03/2024 – Ongoing"
+      duration : "18/03/2024 – 06/12/2024"
       content : '► *Application Management Services* activities on **GCP** using various cloud services like **Composer** and the related **Airflow** DAG written in **Python**, **Cloud Storage**, **Cloud Functions**, analysis on **BigQuery** using **SQL**, **Dataproc**, **Firestore**.'
 
     - name : "Big Data Engineer Consultant"
