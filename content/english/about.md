@@ -5,7 +5,7 @@ image : "https://res.cloudinary.com/dario-caricchio/image/upload/v1621548143/bac
 button:
   enable : true
   label : "DOWNLOAD MY RESUME"
-  link : "https://drive.google.com/file/d/1mJ_fq11RBvdwoFA8FwdLSqrAqwfCycis/view?usp=drive_link"
+  link : "https://drive.google.com/file/d/1aBLJrAZnhs3x10c0sE_20GR8kyzzWCaS/view?usp=drive_link"
 
 ########################### Experience ##############################
 experience:
