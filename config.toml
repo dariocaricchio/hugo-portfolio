@@ -2,8 +2,8 @@
 baseURL = "https://dariocaricchio.ml"
 title = "Dario Caricchio | Portfolio"
 theme = "hugo-portfolio"
-# post pagination
-paginate = "6"
+[pagination]
+pagerSize = 6
 # post excerpt
 summaryLength = "10"
 # disable language

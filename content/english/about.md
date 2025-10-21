@@ -17,8 +17,8 @@ experience:
     - name : "Information Technology Officers"
       company : "Regione Calabria"
       duration : "05/08/2025 – Ongoing"
-      content : '► Defining main **strategies** for Regione Calabria in **Security**, **AI** and many other fields.<br>
-      ► Collaborating with Regione Calabria's partners to accelerate and improve the **Digital Transition** throughout the region.'
+      content : "► Defining main **strategies** for Regione Calabria in **Security**, **AI** and many other fields.<br>
+      ► Collaborating with Regione Calabria's partners to accelerate and improve the **Digital Transition** throughout the region."
 
     - name : "Data Engineer"
       company : "Renewcast"

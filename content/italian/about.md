@@ -23,14 +23,14 @@ experience:
     - name : "Data Engineer"
       company : "Renewcast"
       duration : "09/12/2024 – 04/08/2025"
-      content : '► Sviluppo della **piattaforma dati** e delle relative funzionalità attraverso un **approccio basato sui dati e miglioramenti della scalabilità**.<br>
+      content : "► Sviluppo della **piattaforma dati** e delle relative funzionalità attraverso un **approccio basato sui dati e miglioramenti della scalabilità**.<br>
       ► Implementazione e ottimizzazione di modelli di intelligenza artificiale, automazione dei flussi di lavoro e creazione di soluzioni di dati scalabili.<br>
-      ► Sfruttando una profonda competenza nei servizi **Cloud** (**Azure**), **Airflow**, **Spark**, **Python** e **Databricks**, insieme ad una comprensione approfondita dell'AI analytics, **DevOps** e **orchestrazione dei modelli**, ha ideato ed implementato soluzioni scalabili basate sul machine learning per migliorare le energie rinnovabili.'
+      ► Sfruttando una profonda competenza nei servizi **Cloud** (**Azure**), **Airflow**, **Spark**, **Python** e **Databricks**, insieme ad una comprensione approfondita dell'AI analytics, **DevOps** e **orchestrazione dei modelli**, ha ideato ed implementato soluzioni scalabili basate sul machine learning per migliorare le energie rinnovabili."
 
     - name : "Big Data Engineer Consultant"
       company : "British Multinational Telecommunications Company (Italian division) on behalf of Capgemini"
       duration : "18/03/2024 – 06/12/2024"
-      content : '► Varie attività di *Application Management Services* su **GCP** con diversi servizi come **Composer** e relativi DAG di **Airflow** in **Python**, **Cloud Storage**, **Cloud Functions**, analisi in **BigQuery** con **SQL**, **Dataproc**, **Firestore**.'
+      content : "► Varie attività di *Application Management Services* su **GCP** con diversi servizi come **Composer** e relativi DAG di **Airflow** in **Python**, **Cloud Storage**, **Cloud Functions**, analisi in **BigQuery** con **SQL**, **Dataproc**, **Firestore**."
 
     - name : "Big Data Engineer - Consulente"
       company : "Azienda Britannica Multinazionale di Telecomunicazioni (divisione italiana) per conto di Capgemini"
